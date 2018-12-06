@@ -10,6 +10,6 @@ public class HomeController {
     @ResponseBody
     @GetMapping("/")
     public String index(){
-        return "<h2>You have made it!</h2>";
+        return "<h2>You have made it again!</h2>";
     }
 }
